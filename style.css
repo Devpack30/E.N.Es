@@ -1,0 +1,36 @@
+* {
+  margin-top: 20px;
+  text-align: center;
+}
+body {
+  background-color: rgb(118, 118, 255);
+  color: rgb(44, 44, 44);
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.box_ {
+  background-color: rgb(44, 44, 44);
+  color: aliceblue;
+  height: 100px;
+  width: 400px;
+  margin-top: 40px;
+}
+
+.box- {
+  margin-top: 10px;
+}
+
+#allBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin-top: 30px;
+  margin-inline-start: 30px;
+}
